@@ -1,0 +1,9 @@
+/lib/*.test.d.ts
+/lib/*.test.d.ts.map
+/lib/*.test.js
+/lib/*.test.js.map
+/src/
+/.*
+/*.sh
+/tsconfig.json
+/update-lib-version.js
