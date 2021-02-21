@@ -128,7 +128,8 @@ export function unit(name: string): Unit {
 export async function runAllUnitTests(testRunner: TestRunner): Promise<boolean> {
     let passed = true;
     for (const unit of units) {
-        passed &&= await unit.run(testRunner);
+        const unitPassed = await unit.run(testRunner);
+        passed &&= unitPassed;
     }
     return passed;
 }

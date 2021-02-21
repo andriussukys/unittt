@@ -1,6 +1,6 @@
 {
   "name": "unittt",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Unit test library for TypeScript",
   "repository": "https://github.com/andriussukys/unittt",
   "bin": {
